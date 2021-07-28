@@ -3,12 +3,12 @@
 <html>
     <head>
         <title></title>
-        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet'>
         <link rel="stylesheet" href="{% static 'styles.css' %}">
     </head>
     <body>
         <div class="wrapper">
-            <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.jpg' %}" width="70" alt="logo"></a></h1>
+            <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.png' %}" width="70" alt="logo"> The Daily Øaks</a></h1>
               <nav>
                 <ul>
                 {% if user.is_authenticated %}

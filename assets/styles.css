@@ -1,11 +1,11 @@
 body{
    background-color: #0f121f;
-   background-image: url(stars.png);
-   color: #fff 
+   background-image: url(stars.jpg);
+   color: white;
 }
 
 body *{
-   font-family: 'Indie Flower';
+   font-family: 'Handlee';
 }
 
 h1, h2, h3, h4, h5{
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5{
 }
 
 a, a:hover, a:visited{
-   color: #fff; 
+   color: white; 
    text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ nav li{
 
 nav button{
    background: none;
-   color: #fff;
+   color: white;
    cursor: pointer;
    border: 0;
    font-size: 1em;
@@ -60,7 +60,7 @@ nav button{
 
 .article{
    padding: 10px; 
-   border: 1px solid #00dba0;
+   border: 1px solid #7f0000;
    position: relative; 
    padding-bottom: 40px;
 }
@@ -69,9 +69,13 @@ nav button{
    font-size: 1.2em;
 }
 
+.article a{
+   color: #7f0000 ;
+}
+
 .article .author{
    padding: 10px; 
-   background: #00dba0;
+   background: #7f0000;
    color: #0f121f;
    position: absolute;
    right: 0;
@@ -99,7 +103,7 @@ nav button{
 
 .site-form{
    margin-top: 60px;
-   border: 1px solid #00dba0;
+   border: 1px solid #7f0000;
    padding: 20px;
 }
 
@@ -110,10 +114,10 @@ nav button{
 }
 
 a.highlight{
-   border: 1px solid #00dba0;
+   border: 1px solid #7f0000;
    padding: 10px; 
    border-radius: 4px;
-   color: #00dba0;
+   color: #7f0000;
 }
 
 .helptext, .helptext ul{
@@ -136,9 +140,9 @@ a.highlight{
 }
 
 .site-form input[type="submit"]{
-   background: #00dba0;
+   background: #7f0000;
    border: 0;
-   color: #fff;
+   color: white;
    font-size: 1.2em;
    border-radius: 4px;
    margin: 10px 0;
